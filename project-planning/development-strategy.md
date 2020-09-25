@@ -1,4 +1,4 @@
-# JavaScript Quiz
+# JavaScript Todo List
 
 ...
 
@@ -18,6 +18,10 @@
 
 ## 0.Setup
 
+- Generated this repo from [here]()
+- Turn on GitHub Live Page
+- Wrote the README
+- Cloned the repo to local machine to work on
 ---
 
 ## 1. Initialize Application
