@@ -10,3 +10,6 @@ This is an individual project for learning and practicing:
 - Soft and hard skills in Web Development
 
 This repo is generated from [here](https://github.com/HackYourFutureBelgium/encapsulation-week-1-starter) by [Sayed Kazimi](https://sayed94h.github.io/)
+
+You find the Development Strategy [here](./project-planning/development-strategy.md)
+
