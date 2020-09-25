@@ -18,7 +18,7 @@
 
 ## 0.Setup
 
-- Generated this repo from [here]()
+- Generated this repo from [here](https://github.com/HackYourFutureBelgium/encapsulation-week-1-starter)
 - Turn on GitHub Live Page
 - Wrote the README
 - Cloned the repo to local machine to work on
