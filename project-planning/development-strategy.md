@@ -1,5 +1,7 @@
 # JavaScript Todo List
 
+A user should be able to add todo, mark-unmark as completed, remove todo, ...
+
 ...
 
 ---
@@ -22,6 +24,8 @@
 - Turn on GitHub Live Page
 - Wrote the README
 - Cloned the repo to local machine to work on
+- Created project board
+
 ---
 
 ## 1. Initialize Application
@@ -33,7 +37,7 @@ __As a user I want to see the initial page when I load the site__
 
 ### REPO
 
-- This user story is developed on branch `_`.
+- This user story is developed on branch `initial-app`.
 - This branch is merged to `master` branch after completion.
 
 ### Task A
