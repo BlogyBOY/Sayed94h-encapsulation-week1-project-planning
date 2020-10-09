@@ -30,9 +30,9 @@ A user should be able to add todo, mark-unmark as completed, remove todo, ...
 
 ## 1. Initialize Application
 
-__As a user I want to see the initial page when I load the site__
+**As a user I want to see the initial page when I load the site**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -40,9 +40,16 @@ __As a user I want to see the initial page when I load the site__
 - This user story is developed on branch `initial-app`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Task A: HTML
 
-### Task B
+- Added `meta tag`
+- Added `title tag`
+- Added header
+- Added footer
+
+### Task B: CSS
+
+- Added style for the web page, header, footer and todo container
 
 ### Task ...
 

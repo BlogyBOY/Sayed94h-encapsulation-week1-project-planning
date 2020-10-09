@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* This is the core application object, it contains:
 
@@ -20,21 +20,29 @@
 */
 
 const app = {
-  _state: {
-    todos: []
-  },
-  get state() {
-    return this._state;
-  },
-  set state(newState) {
-    this._state = newState
-  },
+	_state: {
+		todos: [],
+	},
+	get state() {
+		return this._state;
+	},
+	set state(newState) {
+		this._state = newState;
+	},
 
-  toggleCompleted: function (position) {
-    if (position < 0 || this._state.todos.length <= position) {
-      return;
-    }
-    const todo = this._state.todos[position];
-    todo.completed = !todo.completed;
-  }
-}
+	toggleCompleted: function (position) {
+		if (position < 0 || this._state.todos.length <= position) {
+			return;
+		}
+		const todo = this._state.todos[position];
+		todo.completed = !todo.completed;
+	},
+	addTodo: function () {
+		debugger;
+		let newEnt = {
+			text: todoText.value,
+			completed: false,
+		};
+		this._state.todos.push(newEnt);
+	},
+};

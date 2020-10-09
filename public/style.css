@@ -1,0 +1,44 @@
+body {
+	background: #a0a0a0;
+	margin: 0;
+}
+header {
+	width: 100%;
+	margin: 0;
+	background-color: #333;
+	color: #fff;
+}
+header h2 {
+	text-align: center;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+div#container {
+	margin-left: 20%;
+	margin-top: 10%;
+	border: 4px dashed burlywood;
+	padding: 2vh 0 2vh 2vh;
+	margin-right: 20%;
+	background: #a6e4db;
+}
+div#list {
+	width: 20vw;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+	margin-top: 2vh;
+}
+
+footer {
+	width: 100%;
+
+	margin-top: 20%;
+	background-color: #333;
+	color: #fff;
+}
+
+footer section h2 {
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
