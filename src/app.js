@@ -37,12 +37,16 @@ const app = {
 		const todo = this._state.todos[position];
 		todo.completed = !todo.completed;
 	},
-	addTodo: function () {
+	addTodo: function (todos) {
 		debugger;
 		let newEnt = {
-			text: todoText.value,
+			text: todos,
 			completed: false,
 		};
 		this._state.todos.push(newEnt);
+	},
+
+	deleteTodo: function (pos) {
+		this._state.todos.splice(pos, 1);
 	},
 };
