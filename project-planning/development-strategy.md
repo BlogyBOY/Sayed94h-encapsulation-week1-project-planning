@@ -14,7 +14,7 @@ A user should be able to add todo, mark-unmark as completed, remove todo, ...
 
 ## WIREFRAME
 
-![wireframe]()
+<img width="943" alt="wireframe01" src="https://user-images.githubusercontent.com/61209285/95636356-34f4ed80-0a8f-11eb-89d2-c64de5a45b5c.PNG">
 
 ---
 
