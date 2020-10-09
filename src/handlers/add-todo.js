@@ -46,11 +46,11 @@ let handlers = {
 		let todoItem = todoText.value;
 		app.addTodo(todoItem);
 		view.displayTodos();
-		/* 		logger.push({
+		logger.push({
 			action: "Add todo",
 			event,
 			state: app.state,
-		}); */
+		});
 	},
 	deleteTodos: function (pos) {
 		debugger;
