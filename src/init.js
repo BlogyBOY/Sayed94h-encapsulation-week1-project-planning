@@ -1,6 +1,6 @@
 "use strict";
 
-window.onload = () => {
+const runFunction = () => {
 	// set the initial state for your app
 	app.state = deepClone(initialState);
 	console.log("app:", app);
@@ -17,3 +17,5 @@ window.onload = () => {
 		view: todosView,
 	});
 };
+
+runFunction();
