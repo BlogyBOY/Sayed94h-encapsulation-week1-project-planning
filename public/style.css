@@ -1,0 +1,18 @@
+body {
+	background: #a0a0a0;
+}
+div#container {
+	margin-left: 20%;
+	margin-top: 10%;
+	border: 4px dashed burlywood;
+	padding: 2vh 0 2vh 2vh;
+	margin-right: 30%;
+	background: #a6e4db;
+}
+div#list {
+	width: 20vw;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+	margin-top: 2vh;
+}
