@@ -21,7 +21,7 @@ div#container {
 	margin-right: 20%;
 	background: #a6e4db;
 }
-div#list {
+div.list {
 	width: 20vw;
 	display: grid;
 	grid-template-columns: auto auto auto;

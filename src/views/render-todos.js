@@ -1,26 +1,12 @@
 const renderTodos = (todosArr) => {
+	// debugger
 	const ulEl = document.createElement("ul");
 
 	for (const todo of todosArr) {
-		const divEl = document.createElement("div");
-		divEl.id = "list";
 		const liEl = document.createElement("li");
-
-		const checkBoxEl = document.createElement("input");
-		const delBtn = document.createElement("button");
-		delBtn.innerHTML = "🗑";
-		checkBoxEl.type = "checkbox";
-		if (todo.completed) {
-			checkBoxEl.setAttribute("checked", true);
-		}
-		checkBoxEl.id = todosArr.indexOf(todo);
-		liEl.appendChild(checkBoxEl);
-		divEl.appendChild(liEl);
-		divEl.appendChild(delBtn);
-		liEl.innerHTML += todo.text;
-		ulEl.appendChild(divEl);
+		liEl.innerHTML = todo.text;
+		ulEl.appendChild(liEl);
 	}
-
 	return ulEl;
 };
 

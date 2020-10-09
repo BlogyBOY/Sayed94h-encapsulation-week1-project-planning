@@ -55,7 +55,7 @@ A user should be able to add todo, mark-unmark as completed, remove todo, ...
 
 ---
 
-## 1. Add Todo
+## 2. Add Todo
 
 **As a user I want to be able to add item to the todo list**
 
@@ -76,3 +76,23 @@ A user should be able to add todo, mark-unmark as completed, remove todo, ...
 - Added property for the part add-todos
 
 ---
+
+## 3. display-delete-todo
+
+**As a user I want to be able to display the todo list, delete an item from the list**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- ...
+
+### REPO
+
+- This user story is developed on branch `display-delete-todo`.
+- This branch is merged to `master` branch after completion.
+
+### Task A: HTML
+
+### Task B: CSS
+
+### Task C: JS
+
+- Finished the part display-delete-todo
