@@ -44,10 +44,12 @@ A user should be able to add todo, mark-unmark as completed, remove todo, ...
 
 - Added `meta tag`
 - Added `title tag`
+- Added header
+- Added footer
 
 ### Task B: CSS
 
-- Added style for the web page and todo container
+- Added style for the web page, header, footer and todo container
 
 ### Task ...
 
